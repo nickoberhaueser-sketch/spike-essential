@@ -2,8 +2,28 @@
 <html>
 <head>
   <title>Spike Essential</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    a {
+      padding: 20px 40px;
+      font-size: 18px;
+      background-color: #007AFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
-  <a href="spike://essential">Open Spike Essential</a>
+  <a href="spike://essential" onclick="window.location='spike://essential'; return false;">
+    Open Spike Essential
+  </a>
 </body>
 </html>
